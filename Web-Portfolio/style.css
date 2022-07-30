@@ -1,0 +1,161 @@
+.container{
+  margin-bottom: 80px;
+}
+.logo-img{
+  width: 100px;
+}
+.navbar-bg{
+  background: #fff !important;
+}
+.slide-bg{
+  
+}
+.carousel-item{
+  padding: 10px 30px;
+}
+.carousel-item P{
+  margin: 30px 0;
+  color: #777;
+}
+.btn-buy-now{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+}
+.bg-image{
+  background-image: url("images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card img{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  
+}
+.card{
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px lightgray;
+}
+.card:hover{
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px lightgray;
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+.text-align{
+  text-align: center;
+}
+.card-title{
+  margin-bottom: 30px;
+}
+.show-all{
+  text-align: right;
+  color: orangered;
+  font-size: 18px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+.laptop-margin{
+  margin-bottom: 150px;
+}
+.Catagories{
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  position: relative;
+  margin-bottom: 160px;
+}
+.Catagories::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translate(-50%,-50%);
+  background: rgba(252, 71, 6,1);
+  width: 100px;
+  height: 6px;
+
+}
+.Catagories-bg{
+  width: 220px;
+  height: 220px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+.col-30{
+  width: 30%;
+  float: left;
+}
+.bg{
+  background-color: transparent;
+  height: 600px;
+}
+.full-wrap{
+  width: 100%;
+}
+.bag-bg{
+  background-color: #f7f7f7;
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  margin-right: 50px;
+  position: relative;
+}
+.bag-bg img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.first-one{
+  background-color: #f7f7f7;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  margin-right: 80px;
+  margin-top: -80px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.first-one img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.second-one{
+  background-color: #f7f7f7;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  margin-right: 80px;
+  
+}
+.second-one img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.last-one{
+  position: relative;
+  margin-left: 20px;
+}
+.last-one img{
+  width: 600px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-30%);
+}
